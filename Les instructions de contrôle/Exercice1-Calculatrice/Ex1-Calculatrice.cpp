@@ -19,7 +19,7 @@ int main() {
  	case '*' :printf("%d*%d=%d",A,B,A*B); break;
  	case '/' :
 	 if(B!=0) printf("%d/%d=%d",A,B,(float)A/B); 
-	 else printf("Impossible!!",A,B,(float)A/B); 
+	 else printf("Impossible!!"); 
 	 break;
  	case '%' : printf("%d%%d=%d",A,B,A%B); break;
  	default:  printf("%c n'est pas un operateur arithmetique.",Operateur);
